@@ -2,7 +2,7 @@ import React from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Room (props) {
-  const { nodes, materials } = useGLTF("/chambre.glb", '/draco-gltf');
+  const { nodes, materials } = useGLTF("/chambre.glb");
   
   return (
     <group {...props} dispose={null}>

@@ -85,7 +85,7 @@ export default function App(){
             
             <OrbitControls ref={ref} makeDefault rotateSpeed={0.15}/>
 
-              <Bounds clip observe damping={2} margin={1.5}>
+              <Bounds clip observe damping={4} margin={1.5}>
 
                   <Room />
                   <Desk  textVisible={isVisible} />
@@ -118,9 +118,4 @@ export default function App(){
 function debugs( str){
     console.log(str)
     return null
-}
-
-function debugs( str){
-    console.log(str)
-    return null
-}
+  }

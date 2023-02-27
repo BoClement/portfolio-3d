@@ -4,7 +4,7 @@ import { Object_title } from "../Utils/DisplayHtml";
 
 
 export default function Desk ({props, textVisible}) {
-  const { nodes, materials } = useGLTF("/bureau.glb", '/draco-gltf');
+  const { nodes, materials } = useGLTF("/bureau.glb");
 
   const [textClavier, setTextClavier] = useState(false);
   const [textAlarm, setTextAlarm] = useState(false);

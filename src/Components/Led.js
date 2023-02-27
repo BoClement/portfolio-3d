@@ -17,7 +17,7 @@ function FallbackMateriale({ url }) {
 }
 
 export default function Led(props) {
-  const { nodes, materials } = useGLTF("/led.glb", '/draco-gltf');
+  const { nodes, materials } = useGLTF("/led.glb");
   const [lithOn, setlightOn] = useState(false)
   const [play] = useSound("light-switch.mp3", {
         volume: 0.5,

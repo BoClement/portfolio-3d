@@ -3,7 +3,7 @@ import { useGLTF } from "@react-three/drei";
 import { useFrame } from 'react-three-fiber'
   
 export default function Tablebasse(props) {
-  const { nodes, materials } = useGLTF("/tablebasse.glb", '/draco-gltf');
+  const { nodes, materials } = useGLTF("/tablebasse.glb");
   const [hover, setHover] = useState(false);
 
   const myMesh = useRef();

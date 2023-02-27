@@ -3,7 +3,7 @@ import { useGLTF,useCursor } from "@react-three/drei";
 import { Object_sport } from "../Utils/DisplayHtml";
 
 export default function Sports ({props, textVisible}) {
-  const { nodes, materials } = useGLTF("/sport.glb", '/draco-gltf');
+  const { nodes, materials } = useGLTF("/sport.glb");
 
   const [textPunch, setTextPunch] = useState(false);
   const [textAltere, setTextAltere] = useState(false);

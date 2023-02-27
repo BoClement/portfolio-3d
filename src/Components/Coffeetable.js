@@ -10,7 +10,7 @@ export default function Coffeetable({props, textVisible}) {
     const [hover, setHover] = useState(false);
     useCursor(hover)
 
-    const { nodes, materials } = useGLTF("/coffetable.glb", '/draco-gltf');
+    const { nodes, materials } = useGLTF("/coffetable.glb");
     return (
       <group {...props} dispose={null}>
 

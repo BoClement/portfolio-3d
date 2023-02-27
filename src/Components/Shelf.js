@@ -5,7 +5,7 @@ import { Object_description } from "../Utils/DisplayHtml";
 
 
 export default function Shelf ({props, textVisible}) {
-  const { nodes, materials } = useGLTF("/etagere.glb", '/draco-gltf');
+  const { nodes, materials } = useGLTF("/etagere.glb");
   const [textRobotArm, setTextRobotArm] = useState(false);
   const [TextArrosoir, setTextArrosoir] = useState(false);
   const [textRobotCar, setTextRobotCar] = useState(false);
