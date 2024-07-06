@@ -102,3 +102,5 @@ export default function Desk ({props, textVisible}) {
 
   );
 }
+
+useGLTF.preload('/bureau.glb')

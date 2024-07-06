@@ -88,3 +88,5 @@ export default function Led(props) {
     </group>
   );
 }
+
+useGLTF.preload('/led.glb')

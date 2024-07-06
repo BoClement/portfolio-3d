@@ -72,3 +72,5 @@ export default function Sports ({props, textVisible}) {
   </group>
   );
 }
+
+useGLTF.preload('/sport.glb')

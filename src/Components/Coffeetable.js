@@ -101,3 +101,5 @@ export default function Coffeetable({props, textVisible}) {
 
     );
   }
+
+  useGLTF.preload('/coffetable.glb')

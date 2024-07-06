@@ -32,3 +32,4 @@ export default function Tablebasse(props) {
     </group>
   )
 }
+useGLTF.preload('/tablebasse.glb')
